@@ -3,6 +3,15 @@
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-NZJMWT0H28"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+
+  	gtag('config', 'G-NZJMWT0H28');
+	</script>
 
    <!--- basic page needs
    ================================================== -->
@@ -399,16 +408,16 @@
       			<fieldset>
 
                   <div class="form-field">
- 						   <input name="email" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+ 						   <input name="name" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
                   </div>
                   <div class="form-field">
 	      			   <input name="email" type="email" id="contactEmail" placeholder="Email" value="" required="">
 	               </div>
                   <div class="form-field">
-	     				   <input name="email" type="text" id="contactSubject" placeholder="Subject" value="">
+	     				   <input name="subject" type="text" id="contactSubject" placeholder="Subject" value="">
 	               </div>                       
                   <div class="form-field">
-	                 	<textarea name="email" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	                 	<textarea name="message" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
 	               </div>                      
                  <div class="form-field">
                      <button class="submitform">Submit</button>

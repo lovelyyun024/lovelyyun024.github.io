@@ -1275,7 +1275,7 @@ header .top-bar {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background:  url(../images/intro-bg.jpg) no-repeat center top;
+	background:  url(../images/intro-bg.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
